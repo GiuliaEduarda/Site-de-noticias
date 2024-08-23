@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background: #dfdfdf; 
+   font-size: 16px;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #fff;
+}
+
+/* topo */
+header{
+
+
+}
+#marca{
+    width: 100%;
+    height: 300px;
+    background: url('iimg/fundo.png') #2C5273 top round; 
+  
+    
+
+    
+}
+#plano{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    justify-content: space-around;
+
+}
+#plano img{
+    width: 11% ;
+    
+    
+}
+#cidade{
+    position: relative;
+    bottom: 70px;
+    left: 110px;
+}
+#mapa{
+    position: relative;
+    bottom: 25px;
+    right: 60px;
+}
+
+/*menu*/ 
+#menu{
+   display: flex;
+   position: relative;
+   bottom: 130px;
+   left: 480px;
+   
+   
+}
+#ul{
+    display: flex;
+    list-style: none;
+    
+}
+.li{
+   
+}
+.li .a{
+   color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #a3004c ;
+    
+    padding:  15px 30px;
+}
+.li .a:hover{
+    background-color: #730220 ;
+}
+
+/* fim do topo*/
+
+
+/*meio */
+main{
+    width: 80%;
+    margin: auto;
+}
+/*barra*/
+
+#barra{
+    width: 15%;
+    height: 40%;
+    background: url('iimg/fundo-caixa.png') ;
+    float: left;
+    padding: 10px;
+    
+}
+#barra h1{
+    background-color: #2C5273 ;
+    color: white;
+    text-indent: 10px;
+    line-height: 50px;
+}
+#listabarra{
+    background-color: white;
+}
+#listabarra li{
+    list-style: none;
+    text-indent: 15px;
+    
+    
+}
+#listabarra a{
+    
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: 550;
+    display: block;
+    color: #2C5273;
+    
+}
+
+#listabarra a:hover{
+    background-color: #2C5273 ;
+    color: white;
+}
+
+/*fim da barra esquerda*/
+
+/* conteudo do meio */
+
+#right{
+    margin: auto;
+    width: 80%;
+    float: right;
+    
+}
+.conteudo{
+    
+    width: 65%;
+    padding: 10px;
+   float: left;
+   background: url('iimg/fundo-caixa.png') ;
+   
+}
+.conteudo h1{
+    background-color: #2C5273;
+    color: white;
+    text-indent: 15px;
+    line-height: 50px;
+}
+.conteudo  h2{
+    background-color: #730220;
+    width: 40%;
+    
+    line-height: 30px;
+    margin: 15px 0px 5px 0px;
+    font-weight: 400;
+    color: white;
+    border: 1px black solid;
+    text-align: center;
+}
+.conteudo  img{
+    width: 100%;
+}
+.conteudo  p{
+    
+    font-size: 1.5em;
+    text-align: justify;
+    text-indent: 10px;
+}
+.conteudo  a{
+    color: #730220;
+    
+    font-size: 1.5em;
+    line-height: 50px;
+    
+}
+.veja{
+    background-color: white;
+    padding: 20px;
+}
+hr{
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+/* fim do conteudo do meio */
+
+/*navegação direita*/
+
+
+#navegação{
+    
+    width: 30%;
+    float: right;
+    
+}
+.direita{
+    background: url('iimg/fundo-caixa.png') ;
+    padding: 10px;
+}
+.direita:hover{
+    width: 100%;
+}
+.direita h1{
+    background-color: #2C5273;
+    color: white;
+    text-indent: 15px;
+    line-height: 50px;
+}
+.direita h2{
+    background-color: #730220;
+    width: 60%;
+    
+    line-height: 25px;
+    margin: 15px 0px 5px 0px;
+    font-weight: 400;
+    color: white;
+    border: 1px black solid;
+    text-align: center;
+
+}
+.direita img{
+    width: 100%;
+}
+.direita p{
+    background-color: white;
+    padding: 5px;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 10px;
+}
+.direita a{
+    color: #730220;
+    
+    font-size: 1.5em;
+    line-height: 50px;
+}
+
+/*fim navegação direita*/
+
+#rodapé{
+    clear: both;
+    background-color: black;
+}
